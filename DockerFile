@@ -1,0 +1,9 @@
+FROM python:3.10
+
+WORKDIR /my_prject_unwid_digital
+
+COPY requirements.txt /my_prject_unwid_digital/
+RUN pip install -r requirements.txt && mkdir "static"
+COPY . /my_prject_unwid_digital/
+
+EXPOSE 8080

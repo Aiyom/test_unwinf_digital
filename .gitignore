@@ -1,0 +1,4 @@
+*.env
+.idea/
+venv/
+/crud_google_sheet/migrations/
